@@ -1,4 +1,5 @@
 @media (max-width: 992px) {
+
     .navbar {
         gap: 10px;
     }
@@ -84,6 +85,14 @@
 
     }
 
+    .ventajas2 {
+        font-size: 15px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
