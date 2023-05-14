@@ -7,12 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enyx Authorize </title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 
 <body>
     <header>
-        <img src="assets/logo.png" alt="logo" class="logo">
+        <img src="assets/navbar/logo.png" alt="logo" class="logo">
         <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+                <img src="assets/navbar/opciones 2.png" alt="" class="menu-icon">
+            </label>
+            <input type="checkbox" id="menu-toggle">
             <ul class="navbar-list">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Poductos</a></li>
@@ -20,7 +25,126 @@
                 <li><a href="#">Contactanos</a></li>
                 <li><a href="#">Soporte</a></li>
             </ul>
-            <img src="assets/carrito.png" alt="carrito" class="img-carrito">
+            <!-- <img src="assets/navbar/carrito.png" alt="carrito" class="img-carrito"> -->
+            <label for="cart-toggle" class="cart-label">
+                <img src="assets/navbar/carrito.png" alt="" class="cart-icon">
+            </label>
+            <input type="checkbox" id="cart-toggle">
+            <div class="cart">
+                <h2>Compra ya</h2>
+                <div class="cart-item">
+                    <img class="IMAGEN" src="assets/navbar/huella.png" alt="">
+                    <div class="item-info">
+                        <h3 class="item-tittle">Combo basico</h3>
+                        <p class="item bid">Current bid</p>
+                        <span class="item-price">4.8 ETH</span>
+                    </div>
+                    <div class="item-handler">
+                        <span class="quantity-handler down">-</span>
+                        <span class="item-quantity">1</span>
+                        <span class="quantity-handler up">+</span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img class="IMAGEN" src="assets/navbar/huella.png" alt="">
+                    <div class="item-info">
+                        <h3 class="item-tittle">Combo Premium</h3>
+                        <p class="item bid">Current bid</p>
+                        <span class="item-price">4.8 ETH</span>
+                    </div>
+                    <div class="item-handler">
+                        <span class="quantity-handler down">-</span>
+                        <span class="item-quantity">1</span>
+                        <span class="quantity-handler up">+</span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img class="IMAGEN" src="assets/navbar/huella.png" alt="">
+                    <div class="item-info">
+                        <h3 class="item-tittle">Combo Total</h3>
+                        <p class="item bid">Current bid</p>
+                        <span class="item-price">4.8 ETH</span>
+                    </div>
+                    <div class="item-handler">
+                        <span class="quantity-handler down">-</span>
+                        <span class="item-quantity">1</span>
+                        <span class="quantity-handler up">+</span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img class="IMAGEN" src="assets/navbar/huella.png" alt="">
+                    <div class="item-info">
+                        <h3 class="item-tittle">Solo huellas</h3>
+                        <p class="item bid">Current bid</p>
+                        <span class="item-price">4.8 ETH</span>
+                    </div>
+                    <div class="item-handler">
+                        <span class="quantity-handler down">-</span>
+                        <span class="item-quantity">1</span>
+                        <span class="quantity-handler up">+</span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img class="IMAGEN" src="assets/navbar/huella.png" alt="">
+                    <div class="item-info">
+                        <h3 class="item-tittle">Solo software</h3>
+                        <p class="item bid">Current bid</p>
+                        <span class="item-price">4.8 ETH</span>
+                    </div>
+                    <div class="item-handler">
+                        <span class="quantity-handler down">-</span>
+                        <span class="item-quantity">1</span>
+                        <span class="quantity-handler up">+</span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img class="IMAGEN" src="assets/navbar/huella.png" alt="">
+                    <div class="item-info">
+                        <h3 class="item-tittle">Combo ENYX</h3>
+                        <p class="item bid">Current bid</p>
+                        <span class="item-price">4.8 ETH</span>
+                    </div>
+                    <div class="item-handler">
+                        <span class="quantity-handler down">-</span>
+                        <span class="item-quantity">1</span>
+                        <span class="quantity-handler up">+</span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img class="IMAGEN" src="assets/navbar/huella.png" alt="">
+                    <div class="item-info">
+                        <h3 class="item-tittle">Coombo ENYX2</h3>
+                        <p class="item bid">Current bid</p>
+                        <span class="item-price">4.8 ETH</span>
+                    </div>
+                    <div class="item-handler">
+                        <span class="quantity-handler down">-</span>
+                        <span class="item-quantity">1</span>
+                        <span class="quantity-handler up">+</span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img class="IMAGEN" src="assets/navbar/huella.png" alt="">
+                    <div class="item-info">
+                        <h3 class="item-tittle">Combo ENYX FULL</h3>
+                        <p class="item bid">Current bid</p>
+                        <span class="item-price">4.8 ETH</span>
+                    </div>
+                    <div class="item-handler">
+                        <span class="quantity-handler down">-</span>
+                        <span class="item-quantity">1</span>
+                        <span class="quantity-handler up">+</span>
+                    </div>
+                </div>
+                <span class="divider"></span>
+                <div class="cart-total">
+                    <p>Total:</p>
+                    <span>18.3 ETH</span>
+                </div>
+                <button class="btn-add">Comprar</button>
+            </div>
+
+
         </nav>
     </header>
     <main>
@@ -37,7 +161,7 @@
             </div>
             <div class="contenedor">
                 <div class="hero-card">
-                    <img src="assets/huella.png" alt="">
+                    <img clsas="HUELLA-IMG" src="assets/navbar/huella.png" alt="">
                 </div>
             </div>
 
@@ -46,7 +170,75 @@
             personal permite controlar de forma sencilla y efectiva los tiempos de llegada y salida de los empleados de
             la Empresa, entre ellos tenemos: horas normales, horas extras, entradas tarde, vacaciones, horarios
             rotativos, horas nocturnas, festivos, y otras funciones más.</p>
+        <section id="cards">
+            <h2 class="ventajas">Nuestras Ventajas</h2>
+            <p class="ventajas2">Ademas de ser los numero 1 en el mercado,tendrias que elegirnos por:</p>
+            <div class="container">
+                <div class="beneficios-cards">
+                    <img src="assets/cards/ventaja1.png" alt="">
+                    <h2>Beneficio 1</h2>
+                    <p>Utilizamos la ultima tecnologia del mercado,nuestros productos son de ultima generacion</p>
+                </div>
+                <div class="beneficios-cards">
+                    <img src="assets/cards/ventaja2.png" alt="">
+                    <h2>Beneficio 2</h2>
+                    <p>Tenemos descuentos exclusivos que no vas a encontrar en otra parte, ahora 24!</p>
+
+                </div>
+                <div class="beneficios-cards">
+                    <img src="assets/cards/ventaja3.png" alt="">
+                    <h2>Beneficio 3</h2>
+                    <p>La instalacion es totalmente gratis, debido a que nos elegiste desde <span>ENYX</span> nos
+                        gustaria agradecerte no cobrandote la instalacion!</p>
+                </div>
+
+
+            </div>
+
+        </section>
+        <section id="contacto">
+            <!-- <h2 class="titulo">Contactanos!</h2> -->
+            <div class="container2">
+                <!-- <h2 class="titulo">Contactanos!</h2> -->
+                <div class="ubicaciones">
+                    <h2 class="titulo">Contactanos!</h2>
+                    <div class="direcciones">
+                        <div class="jupiter">
+                            <h3>Jupiter,Australia</h3>
+                            <ul class="lista">
+                                <li>🚩Calle falsa 123</li>
+                                <li>💻 Mail@gmail.com</li>
+                                <li>📲 01112121212</li>
+                            </ul>
+
+                        </div>
+                        <div class="esteban">
+                            <h3>Esteban Echeverria</h3>
+                            <ul class="lista">
+                                <li>🚩Calle falsa 123</li>
+                                <li>💻 Mail@gmail.com</li>
+                                <li>📲 01112121212</li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="mapa">
+                    <img src="assets/cards/mapa.PNG" alt="">
+
+                </div>
+
+            </div>
+            <div class="linea"></div>
+        </section>
+
     </main>
+    <footer id="footer">
+        <div class="logo-footer"></div>
+        <img src="assets/navbar/logo3.png" alt="logo-footer" class="logo-f3">
+
+    </footer>
 
 </body>
 
