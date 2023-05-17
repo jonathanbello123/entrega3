@@ -98,7 +98,6 @@
   .hero-info h1 {
       font-size: 48px;
       width: 80%;
-      width: 500px;
       font-weight: 800;
       color: var(--text);
   }
