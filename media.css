@@ -114,6 +114,58 @@
 
 
     main {
+        /* width: 100%; */
+    }
+    .hero-info h1{
+        width: 80%;
+        font-size: 30px;
+    }
+    .hero-info p{
+        width: 60%;
+        font-size: 20px;
+    }
+    .info  {
+        width: 80%;
+        font-size: 20px;
+    }
+    .mapa{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mapa img {
+        width: 90%;
+        
+    }
+    .ventajas{
+        font-size: 25px;
+    }
+    .beneficios-cards p{
+        font-size: 25px;
+    }
+    .beneficios-cards{
+        width: 90%;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .beneficios-cards img{
         width: 100%;
     }
+    
+    .logo-f3{
+    width: 30%;
+    }
+    header{
+        padding: 0;
+        }
+    .navbar{
+        gap: 0;
+    }
+    .logo{
+        width: 170px;
+    }
+    
+
 }
