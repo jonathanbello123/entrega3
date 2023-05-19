@@ -183,4 +183,11 @@
         display: flex;
         justify-content: space-around;
     }
+
+    .direcciones {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

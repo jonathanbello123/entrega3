@@ -14,7 +14,7 @@
       text-decoration: none;
       list-style-type: none;
       font-family: 'Ysabeau', sans-serif;
-      /* border: 1px solid red; */
+      border: 1px solid red;
   }
 
 
@@ -320,7 +320,7 @@
       justify-content: center;
       gap: 20px;
       background-color: var(--text);
-      padding: 20px;
+      /* padding: 20px; */
       border: 1px solid var(--body-color);
       border-radius: 10px;
   }
